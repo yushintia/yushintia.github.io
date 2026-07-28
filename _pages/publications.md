@@ -168,4 +168,3 @@ author_profile: true
 
     </main>
   </div>
-</div>
