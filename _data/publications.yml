@@ -1,0 +1,72 @@
+international_journals:
+  title: "International Journal Papers"
+  short_title: "International Journals"
+  items:
+    - year: 2025
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Secure Multicast Routing Against Collaborative Attacks in FANETs with CF-mMIMO and STAR-RIS: Blockchain and Federated Learning Design"
+      venue: "IEEE Internet of Things Journal"
+      volume: "vol. 12, no. 12"
+      pages: "pp. 22404–22426"
+      date: "June 2025"
+      doi: "https://doi.org/10.1109/JIOT.2025.3548863"
+      pdf: ""
+
+    - year: 2025
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Federated Blockchain-Based Clustering Protocol for Enhanced Security and Connectivity in FANETs with CF-mMIMO"
+      venue: "IEEE Internet of Things Journal"
+      volume: "vol. 12, no. 10"
+      pages: "pp. 14016–14035"
+      date: "May 2025"
+      doi: "https://doi.org/10.1109/JIOT.2025.3533633"
+      pdf: ""
+
+    - year: 2024
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Opportunistic Scheduling Scheme to Improve Physical-Layer Security in Cooperative NOMA System: Performance Analysis and Deep Learning Design"
+      venue: "IEEE Access"
+      volume: "vol. 12"
+      pages: "pp. 58454–58472"
+      date: "April 2024"
+      doi: "https://doi.org/10.1109/ACCESS.2024.3391855"
+      pdf: ""
+
+domestic_journals:
+  title: "Domestic Journal Papers"
+  short_title: "Domestic Journals"
+  items: []
+
+international_conferences:
+  title: "International Conference Papers"
+  short_title: "International Conferences"
+  items:
+    - year: 2024
+      authors: "Yushintia Pramitarini, et al."
+      title: "Example International Conference Paper"
+      venue: "IEEE ICAIIC"
+      volume: ""
+      pages: "pp. 1–6"
+      date: "February 2024"
+      doi: ""
+      pdf: ""
+
+domestic_conferences:
+  title: "Domestic Conference Papers"
+  short_title: "Domestic Conferences"
+  items: []
+
+patents:
+  title: "Patents"
+  short_title: "Patents"
+  items: []
+
+software:
+  title: "Software"
+  short_title: "Software"
+  items: []
+
+book_chapters:
+  title: "Book Chapters"
+  short_title: "Book Chapters"
+  items: []
