@@ -1,10 +1,8 @@
 ---
 layout: archive
-title: "Professor"
+title: "Profile"
 permalink: /profile/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 # Yushintia Pramitarini
