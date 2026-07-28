@@ -7,6 +7,12 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  .page__content p {
+    text-align: justify;
+  }
+</style>
+
 **Dong-Eui University** · Department of Intelligent Computing
 
 I am currently an **Assistant Professor** in the Department of Intelligent Computing at Dong-Eui University, Busan, South Korea. Prior to this position, I worked as a Postdoctoral Researcher at the Institute of Industrial Technology, Korea University (Sejong Campus) from 2025 to 2026.
