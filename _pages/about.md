@@ -19,21 +19,22 @@ I am currently an **Assistant Professor** in the Department of Intelligent Compu
 
 I received my Ph.D. degree in Software and Communication Engineering from Hongik University, Sejong, South Korea, in 2025. I obtained my M.S. degree in Electrical Engineering from Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Indonesia, in 2013, and my B.S. degree in Telecommunication Engineering from the Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), Surabaya, Indonesia, in 2011.
 
-My research is centered on the design and analysis of advanced wireless communication systems, with a particular emphasis on secure and intelligent networking solutions. During my doctoral studies at Hongik University (UNC Lab), I focused on developing efficient and secure multicast routing protocols for various wireless network environments, including ad-hoc networks, sensor networks, and Flying Ad-hoc Networks (FANETs).
+My research is centered on the design and analysis of advanced wireless communication systems, with a particular emphasis on secure and intelligent networking solutions. During my doctoral studies at Hongik University (UNC Lab), I focused on developing efficient and secure multicast routing protocols for various wireless network environments, including mobile/vehicular/flying ad-hoc networks.
 
 ### Research Interests
 
 My current research interests include:
 
 - Wireless Communication and Mobile Wireless Networks
-- Wireless Sensor Networks (WSNs) and Ad-hoc Networks
+- Wireless Sensor Networks (WSNs)
 - Clustering Techniques for Wireless Networks
 - Quality-of-Service (QoS) Routing and Multicast Routing
-- Secure Multicast Routing against Active and Collaborative Attacks
+- Network-Layer Security
 - Physical-Layer Security (PLS)
-- Machine Learning applications for Networking
+- Machine Learning applications for Wireless Communication
 - Internet of Things (IoT) and Beyond 5G Networks
 - Cross-layer Design and Energy-efficient Communication Protocols
+- Blockchain for Wireless Communication
 
 I am particularly interested in problems that combine **security**, **intelligence** (machine learning / deep learning), and **efficient resource management** in next-generation wireless networks.
 
