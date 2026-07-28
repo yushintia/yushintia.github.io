@@ -101,22 +101,6 @@ author_profile: true
                       {{ item.authors }}
                     </p>
 
-                    <p class="pub-meta">
-                      <strong>{{ item.venue }}</strong>
-
-                      {% if item.volume != "" %}
-                        , {{ item.volume }}
-                      {% endif %}
-
-                      {% if item.pages != "" %}
-                        , {{ item.pages }}
-                      {% endif %}
-
-                      {% if item.date != "" %}
-                        , {{ item.date }}
-                      {% endif %}.
-                    </p>
-
                     {% if item.doi != "" or item.pdf != "" %}
                       <div class="pub-actions">
 
