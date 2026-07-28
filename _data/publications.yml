@@ -2,6 +2,16 @@ international_journals:
   title: "International Journal Papers"
   short_title: "International Journals"
   items:
+    - year: 2026
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, Taejoon Kim, Heejung Yu, Beongku An"
+      title: "Secure Multicast Routing Protocol for FANETs Against Active Sniffing Attacks: Deep Learning Approach"
+      venue: "ICT Express"
+      volume: ""
+      pages: ""
+      date: "March 2026"
+      doi: "https://doi.org/10.1016/j.icte.2026.03.016"
+      pdf: ""
+      
     - year: 2025
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
       title: "Secure Multicast Routing Against Collaborative Attacks in FANETs with CF-mMIMO and STAR-RIS: Blockchain and Federated Learning Design"
