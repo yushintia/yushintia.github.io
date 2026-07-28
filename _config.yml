@@ -26,10 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Yushintia Pramitarini"
   pronouns         : # example: "she/her"  
-  bio              : |
-  Assistant Professor
-  Department of Intelligent Computing
-  Dong-Eui University
+  bio              : "Assistant Professor, Department of Intelligent Computing, Dong-Eui University"
   location         : "Busan, South Korea"
   employer         : "Dong-Eui University"
   uri              : # URL
@@ -44,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0000-0001-7732-7579"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
