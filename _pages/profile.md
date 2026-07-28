@@ -20,7 +20,7 @@ author_profile: true
 - **2021 - 2025** — Ph.D. in Software and Communication Engineering, Hongik University, Sejong, South Korea
 - **2011 - 2013** — M.S. in Electrical Engineering, Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Indonesia
 - **2009 - 2011** — B.S. in Telecommunication Engineering, Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), Surabaya, Indonesia
-- **2003 - 2009** - Associate Degree of Science in Telecommunication Engineering, Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), Surabaya, Indonesia
+- **2003 - 2009** — Associate Degree of Science in Telecommunication Engineering, Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), Surabaya, Indonesia
 
 ---
 
