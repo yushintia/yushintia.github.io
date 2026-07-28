@@ -23,16 +23,16 @@ author_profile: true
     {% assign total_publications = total_publications | plus: group.items.size %}
   {% endfor %}
 
-  <div class="pub-summary">
-    <div class="pub-summary-number">
-      {{ total_publications }}
-    </div>
+  #<div class="pub-summary">
+    #<div class="pub-summary-number">
+      #{{ total_publications }}
+    #</div>
 
-    <div>
-      <strong>Total Publications</strong>
-      <span>Across all publication categories</span>
-    </div>
-  </div>
+    #<div>
+      #<strong>Total Publications</strong>
+      #<span>Across all publication categories</span>
+    #</div>
+  #</div>
 
   <nav class="pub-category-nav" aria-label="Publication categories">
     {% for group_key in publication_groups %}
