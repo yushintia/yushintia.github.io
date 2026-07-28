@@ -3,6 +3,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
 <div class="pub-hero">
   <span class="pub-eyebrow">Academic Portfolio</span>
 
@@ -11,144 +12,173 @@ author_profile: true
     patents, software, and book chapters.
   </p>
 </div>
-  {% assign publication_groups =
-    "international_journals,domestic_journals,international_conferences,domestic_conferences,patents,software,book_chapters"
-    | split: ","
-  %}
 
-  {% assign total_publications = 0 %}
+{% assign publication_groups =
+  "international_journals,domestic_journals,international_conferences,domestic_conferences,patents,software,book_chapters"
+  | split: ","
+%}
 
+{% assign total_publications = 0 %}
+
+{% for group_key in publication_groups %}
+  {% assign group = site.data.publications[group_key] %}
+  {% assign total_publications = total_publications | plus: group.items.size %}
+{% endfor %}
+
+<nav class="pub-category-nav" aria-label="Publication categories">
   {% for group_key in publication_groups %}
     {% assign group = site.data.publications[group_key] %}
-    {% assign total_publications = total_publications | plus: group.items.size %}
-  {% endfor %}
 
-  <nav class="pub-category-nav" aria-label="Publication categories">
+    <a href="#{{ group_key }}">
+      <span>{{ group.short_title }}</span>
+      <span class="pub-nav-count">{{ group.items.size }}</span>
+    </a>
+  {% endfor %}
+</nav>
+
+<div class="pub-layout">
+
+  <aside class="pub-sidebar">
+    <div class="pub-sidebar-title">Categories</div>
+
     {% for group_key in publication_groups %}
       {% assign group = site.data.publications[group_key] %}
 
       <a href="#{{ group_key }}">
         <span>{{ group.short_title }}</span>
-        <span class="pub-nav-count">{{ group.items.size }}</span>
+        <span>{{ group.items.size }}</span>
       </a>
     {% endfor %}
-  </nav>
+  </aside>
 
-  <div class="pub-layout">
+  <main class="pub-content">
 
-    <aside class="pub-sidebar">
-      <div class="pub-sidebar-title">Categories</div>
+    {% for group_key in publication_groups %}
+      {% assign group = site.data.publications[group_key] %}
 
-      {% for group_key in publication_groups %}
-        {% assign group = site.data.publications[group_key] %}
+      <section class="pub-section" id="{{ group_key }}">
 
-        <a href="#{{ group_key }}">
-          <span>{{ group.short_title }}</span>
-          <span>{{ group.items.size }}</span>
-        </a>
-      {% endfor %}
-    </aside>
+        <div class="pub-section-heading">
+          <div>
+            <span class="pub-section-label">
+              Publication category
+            </span>
 
-    <main class="pub-content">
-
-      {% for group_key in publication_groups %}
-        {% assign group = site.data.publications[group_key] %}
-
-        <section class="pub-section" id="{{ group_key }}">
-
-          <div class="pub-section-heading">
-            <div>
-              <span class="pub-section-label">
-                Publication category
-              </span>
-
-              <h2>{{ group.title }}</h2>
-            </div>
-
-            <div class="pub-section-count">
-              {{ group.items.size }}
-            </div>
+            <h2>{{ group.title }}</h2>
           </div>
 
-          {% if group.items.size > 0 %}
+          <div class="pub-section-count">
+            {{ group.items.size }}
+          </div>
+        </div>
 
-            <ol class="pub-list">
-              {% assign sorted_items = group.items | sort: "year" | reverse %}
+        {% if group.items.size > 0 %}
 
-              {% for item in sorted_items %}
-                <li class="pub-item">
+          <ol class="pub-list" data-publication-list>
+            {% assign sorted_items = group.items | sort: "year" | reverse %}
 
-                  <div class="pub-item-year">
-                    {{ item.year }}
-                  </div>
+            {% for item in sorted_items %}
+              <li
+                class="pub-item{% if forloop.index > 5 %} pub-item-hidden{% endif %}"
+                data-publication-item
+              >
 
-                  <div class="pub-item-body">
-                    <h3>
+                <div class="pub-item-year">
+                  {{ item.year }}
+                </div>
+
+                <div class="pub-item-body">
+                  <h3>
+                    {% if item.doi != "" %}
+                      <a
+                        href="{{ item.doi }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {{ item.title }}
+                      </a>
+                    {% else %}
+                      {{ item.title }}
+                    {% endif %}
+                  </h3>
+
+                  <p class="pub-authors">
+                    {{ item.authors }}
+                  </p>
+
+                  {% if item.doi != "" or item.pdf != "" %}
+                    <div class="pub-actions">
+
                       {% if item.doi != "" %}
                         <a
                           href="{{ item.doi }}"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {{ item.title }}
+                          <i class="fas fa-external-link-alt"></i>
+                          DOI
                         </a>
-                      {% else %}
-                        {{ item.title }}
                       {% endif %}
-                    </h3>
 
-                    <p class="pub-authors">
-                      {{ item.authors }}
-                    </p>
+                      {% if item.pdf != "" %}
+                        <a
+                          href="{{ item.pdf | relative_url }}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fas fa-file-pdf"></i>
+                          PDF
+                        </a>
+                      {% endif %}
 
-                    {% if item.doi != "" or item.pdf != "" %}
-                      <div class="pub-actions">
+                    </div>
+                  {% endif %}
+                </div>
 
-                        {% if item.doi != "" %}
-                          <a
-                            href="{{ item.doi }}"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i class="fas fa-external-link-alt"></i>
-                            DOI
-                          </a>
-                        {% endif %}
+              </li>
+            {% endfor %}
+          </ol>
 
-                        {% if item.pdf != "" %}
-                          <a
-                            href="{{ item.pdf | relative_url }}"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i class="fas fa-file-pdf"></i>
-                            PDF
-                          </a>
-                        {% endif %}
+          {% if group.items.size > 5 %}
+            <button
+              class="pub-show-more"
+              type="button"
+              data-show-more
+              aria-expanded="false"
+            >
+              <span class="show-more-text">
+                Show More
+              </span>
 
-                      </div>
-                    {% endif %}
-                  </div>
+              <span class="show-less-text">
+                Show Less
+              </span>
 
-                </li>
-              {% endfor %}
-            </ol>
+              <span class="pub-hidden-count">
+                +{{ group.items.size | minus: 5 }}
+              </span>
 
-          {% else %}
-
-            <div class="pub-empty">
-              <i class="far fa-folder-open"></i>
-
-              <div>
-                <strong>No publications listed yet.</strong>
-                <p>This category will be updated soon.</p>
-              </div>
-            </div>
-
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
           {% endif %}
 
-        </section>
-      {% endfor %}
+        {% else %}
 
-    </main>
-  </div>
+          <div class="pub-empty">
+            <i class="far fa-folder-open"></i>
+
+            <div>
+              <strong>No publications listed yet.</strong>
+              <p>This category will be updated soon.</p>
+            </div>
+          </div>
+
+        {% endif %}
+
+      </section>
+    {% endfor %}
+
+  </main>
+</div>
+
+<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
