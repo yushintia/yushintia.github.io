@@ -36,4 +36,16 @@
     "layout/archive",
     "layout/sidebar",
     "layout/json_cv"
-;
+   ;
+
+   .page__footer {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-top: 20px !important;
+  min-height: auto !important;
+}
+
+.page__footer footer {
+  font-size: 0.8rem !important;
+  line-height: 1.2 !important;
+}
