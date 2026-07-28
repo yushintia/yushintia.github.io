@@ -4,23 +4,183 @@ permalink: /publications/
 author_profile: true
 ---
 
-## SCI(E) Journals
+<div class="pub-page">
 
-1. Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An, "Secure Multicast Routing Against Collaborative Attacks in FANETs with CF-mMIMO and STAR-RIS: Blockchain and Federated Learning Design," *IEEE Internet of Things Journal*, vol. 12, no. 12, pp. 22404–22426, June 2025. [[pdf](https://doi.org/10.1109/JIOT.2025.3551746)]
+  <div class="pub-hero">
+    <span class="pub-eyebrow">Academic Portfolio</span>
+    <h1>Publications</h1>
+    <p>
+      A collection of peer-reviewed journal articles, conference papers,
+      patents, software, and book chapters.
+    </p>
+  </div>
 
-2. Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An, "Federated Blockchain-Based Clustering Protocol for Enhanced Security and Connectivity in FANETs with CF-mMIMO," *IEEE Internet of Things Journal*, vol. 12, no. 10, pp. 14016–14035, May 2025. [[pdf](https://doi.org/10.1109/JIOT.2025.3525644)]
+  {% assign publication_groups =
+    "international_journals,domestic_journals,international_conferences,domestic_conferences,patents,software,book_chapters"
+    | split: ","
+  %}
 
-3. Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An, "Opportunistic Scheduling Scheme to Improve Physical-Layer Security in Cooperative NOMA System: Performance Analysis and Deep Learning Design," *IEEE Access*, vol. 12, pp. 58454–58472, April 2024. [[pdf](https://doi.org/10.1109/ACCESS.2024.3392255)]
+  {% assign total_publications = 0 %}
 
-4. Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An, "DLSMR: Deep Learning-Based Secure Multicast Routing Protocol against Wormhole Attack in Flying Ad Hoc Networks with Cell-Free Massive MIMO," *Sensors*, vol. 23, no. 18, p. 7960, September 2023. [[pdf](https://doi.org/10.3390/s23187960)]
+  {% for group_key in publication_groups %}
+    {% assign group = site.data.publications[group_key] %}
+    {% assign total_publications = total_publications | plus: group.items.size %}
+  {% endfor %}
 
-5. Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Thong-Nhat Tran, Kyusung Shim, and Beongku An, "A Hybrid Price Auction-Based Secure Routing Protocol Using Advanced Speed and Cosine Similarity-Based Clustering against Sinkhole Attack in VANETs," *Sensors*, vol. 22, no. 15, p. 5811, August 2022. [[pdf](https://doi.org/10.3390/s22155811)]
+  <div class="pub-summary">
+    <div class="pub-summary-number">
+      {{ total_publications }}
+    </div>
 
----
+    <div>
+      <strong>Total Publications</strong>
+      <span>Across all publication categories</span>
+    </div>
+  </div>
 
-## International Conferences
+  <nav class="pub-category-nav" aria-label="Publication categories">
+    {% for group_key in publication_groups %}
+      {% assign group = site.data.publications[group_key] %}
 
-*(Tambahkan daftar conference paper di sini nanti)*
+      <a href="#{{ group_key }}">
+        <span>{{ group.short_title }}</span>
+        <span class="pub-nav-count">{{ group.items.size }}</span>
+      </a>
+    {% endfor %}
+  </nav>
 
+  <div class="pub-layout">
 
+    <aside class="pub-sidebar">
+      <div class="pub-sidebar-title">Categories</div>
 
+      {% for group_key in publication_groups %}
+        {% assign group = site.data.publications[group_key] %}
+
+        <a href="#{{ group_key }}">
+          <span>{{ group.short_title }}</span>
+          <span>{{ group.items.size }}</span>
+        </a>
+      {% endfor %}
+    </aside>
+
+    <main class="pub-content">
+
+      {% for group_key in publication_groups %}
+        {% assign group = site.data.publications[group_key] %}
+
+        <section class="pub-section" id="{{ group_key }}">
+
+          <div class="pub-section-heading">
+            <div>
+              <span class="pub-section-label">
+                Publication category
+              </span>
+
+              <h2>{{ group.title }}</h2>
+            </div>
+
+            <div class="pub-section-count">
+              {{ group.items.size }}
+            </div>
+          </div>
+
+          {% if group.items.size > 0 %}
+
+            <ol class="pub-list">
+              {% assign sorted_items = group.items | sort: "year" | reverse %}
+
+              {% for item in sorted_items %}
+                <li class="pub-item">
+
+                  <div class="pub-item-year">
+                    {{ item.year }}
+                  </div>
+
+                  <div class="pub-item-body">
+                    <h3>
+                      {% if item.doi != "" %}
+                        <a
+                          href="{{ item.doi }}"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {{ item.title }}
+                        </a>
+                      {% else %}
+                        {{ item.title }}
+                      {% endif %}
+                    </h3>
+
+                    <p class="pub-authors">
+                      {{ item.authors }}
+                    </p>
+
+                    <p class="pub-meta">
+                      <strong>{{ item.venue }}</strong>
+
+                      {% if item.volume != "" %}
+                        , {{ item.volume }}
+                      {% endif %}
+
+                      {% if item.pages != "" %}
+                        , {{ item.pages }}
+                      {% endif %}
+
+                      {% if item.date != "" %}
+                        , {{ item.date }}
+                      {% endif %}.
+                    </p>
+
+                    {% if item.doi != "" or item.pdf != "" %}
+                      <div class="pub-actions">
+
+                        {% if item.doi != "" %}
+                          <a
+                            href="{{ item.doi }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-external-link-alt"></i>
+                            DOI
+                          </a>
+                        {% endif %}
+
+                        {% if item.pdf != "" %}
+                          <a
+                            href="{{ item.pdf | relative_url }}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-file-pdf"></i>
+                            PDF
+                          </a>
+                        {% endif %}
+
+                      </div>
+                    {% endif %}
+                  </div>
+
+                </li>
+              {% endfor %}
+            </ol>
+
+          {% else %}
+
+            <div class="pub-empty">
+              <i class="far fa-folder-open"></i>
+
+              <div>
+                <strong>No publications listed yet.</strong>
+                <p>This category will be updated soon.</p>
+              </div>
+            </div>
+
+          {% endif %}
+
+        </section>
+      {% endfor %}
+
+    </main>
+  </div>
+</div>
