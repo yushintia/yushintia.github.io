@@ -3,7 +3,14 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<div class="pub-hero">
+  <span class="pub-eyebrow">Academic Portfolio</span>
 
+  <p>
+    A collection of peer-reviewed journal articles, conference papers,
+    patents, software, and book chapters.
+  </p>
+</div>
   {% assign publication_groups =
     "international_journals,domestic_journals,international_conferences,domestic_conferences,patents,software,book_chapters"
     | split: ","
