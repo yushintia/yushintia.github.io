@@ -9,10 +9,9 @@ author_profile: true
 
 ### Contact Information
 
-**Department of Intelligent Computing**  
-Dong-Eui University, Busan, South Korea  
+- **Office:** Department of Intelligent Computing, Dong-Eui University, Busan, South Korea  
 
-**Email:** yushintia _at_ deu _dot_ ac _dot_ kr
+- **Email:** yushintia _at_ deu _dot_ ac _dot_ kr
 
 ---
 
