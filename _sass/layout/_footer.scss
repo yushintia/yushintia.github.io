@@ -10,14 +10,13 @@
   float: left;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 3em;
+  margin-top: 1em;
   width: 100%;
   clear: both;
 
-  /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
 
-  /* keep the footer on the bottom of the page */
+  /* Keep the footer at the bottom of the page */
   position: fixed;
   bottom: 0;
 
@@ -25,15 +24,16 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
+
   border-top: 1px solid var(--global-dark-border-color);
 
   footer {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 0;
     max-width: 100%;
-    padding: 0 1em 1em;
+    padding: 0.5em 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -58,7 +58,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* don't pin the footer on mobile devices */
   .page__footer {
     position: relative;
     bottom: auto;
@@ -66,11 +65,15 @@
 }
 
 .page__footer-copyright {
+  margin: 0;
   font-family: $global-font-family;
   font-size: $type-size-7;
+  line-height: 1.2;
 }
 
 .page__footer-follow {
+  margin-bottom: 0.25em;
+
   ul {
     margin: 0;
     padding: 0;
@@ -79,10 +82,11 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
+    font-size: $type-size-7;
+    line-height: 1.2;
     text-transform: uppercase;
   }
 
@@ -92,7 +96,7 @@
   }
 
   a {
-    padding-right: 10px;
+    padding-right: 8px;
     font-weight: bold;
   }
 
