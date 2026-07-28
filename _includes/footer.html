@@ -1,8 +1,8 @@
 {% include base_path %}
 
-{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
-<div class="page__footer-follow" style="padding: 10px 0; font-size: 0.85rem; text-align: center;">
+<div class="page__footer-follow">
   <footer>
-    &copy; {{ 'now' | date: "%Y" }} {{ site.author.name | default: site.title }}. 
+    &copy; {{ 'now' | date: "%Y" }}
+    {{ site.author.name | default: site.title }}.
   </footer>
 </div>
