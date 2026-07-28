@@ -28,7 +28,7 @@ author_profile: true
 
 - **2026 – Present** — Assistant Professor, Department of Intelligent Computing, Dong-Eui University, Busan, South Korea
 - **2025 – 2026** — Postdoctoral Researcher, Institute of Industrial Technology, Korea University, Sejong, South Korea
-- **2013 - 2021** - Lecturer, Department of Information Technology, Politeknik Negeri Malang, East Java, Indonesia
+- **2013 - 2021** — Lecturer, Department of Information Technology, Politeknik Negeri Malang, East Java, Indonesia
 
 ---
 
