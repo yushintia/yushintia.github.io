@@ -287,23 +287,11 @@
   text-align: center;
 }
 
-.pub-item-body {
-  min-width: 0;
-
-  h3 {
-    margin: 0 0 0.45rem;
-    font-size: 0.92rem;
-    line-height: 1.45;
-
-    a {
-      color: var(--global-link-color);
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
+.pub-item-body h3 {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.35;
 }
 
 .pub-authors {
