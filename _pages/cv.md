@@ -1,64 +1,55 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Professor"
+permalink: /profile/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# Yushintia Pramitarini
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+### Contact Information
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Department of Intelligent Computing**  
+Dong-Eui University, Busan, South Korea  
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Email:** yushintia _at_ deu _dot_ ac _dot_ kr
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+---
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Education
+
+- **2021 - 2025** — Ph.D. in Software and Communication Engineering, Hongik University, Sejong, South Korea
+- **2011 - 2013** — M.S. in Electrical Engineering, Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Indonesia
+- **2009 - 2011** — B.S. in Telecommunication Engineering, Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), Surabaya, Indonesia
+- **2003 - 2009** - Associate Degree of Science in Telecommunication Engineering, Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), Surabaya, Indonesia
+
+---
+
+### Work Experience
+
+- **2026 – Present** — Assistant Professor, Department of Intelligent Computing, Dong-Eui University, Busan, South Korea
+- **2025 – 2026** — Postdoctoral Researcher, Institute of Industrial Technology, Korea University, Sejong, South Korea
+- **2013 - 2021** - Lecturer, Department of Information Technology, Politeknik Negeri Malang, East Java, Indonesia
+
+---
+
+### Award
+- **2024.03.01 - 2025.02.01** - Best Research of the Year (1st Place for Ph.D. Study)
+- **2024** - Best Paper Award of the IEEE International Conference on Artificial Intelligence in Information and Communication.
+
+---
+
+### Research Fields
+
+- Wireless Communication and Mobile Wireless Networks
+- Wireless Sensor Networks (WSNs)
+- Clustering Techniques for Wireless Networks
+- Quality-of-Service (QoS) Routing and Multicast Routing
+- Network-Layer Security
+- Physical-Layer Security (PLS)
+- Machine Learning Applications for Wireless Communication
+- Internet of Things (IoT) and Beyond 5G Networks
+- Cross-layer Design and Energy-efficient Communication Protocols
+- Blockchain for Wireless Communication
