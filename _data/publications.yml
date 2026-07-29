@@ -9,7 +9,7 @@ international_journals:
       venue: "IEEE Internet of Things Journal"
       volume: ""
       pages: ""
-      pdf: "https://doi.org/10.1109/JIOT.2026.3710156"
+      doi: "https://doi.org/10.1109/JIOT.2026.3710156"
       
     - year: 2026
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, Taejoon Kim, Heejung Yu, and Beongku An"
@@ -18,7 +18,7 @@ international_journals:
       volume: ""
       pages: ""
       date: "March 2026"
-      pdf: "https://doi.org/10.1016/j.icte.2026.03.016"
+      doi: "https://doi.org/10.1016/j.icte.2026.03.016"
       
     - year: 2025
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
