@@ -3,7 +3,7 @@ international_journals:
   short_title: "International Journals"
   items:
     - year: 2026
-      date: "July 2026"
+      date: "2026-07"
       authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
       title: "Beamforming-Based Multicast Routing Protocol in Underlay Cognitive MANETs with STAR-RIS: Deep Learning Design"
       venue: "IEEE Internet of Things Journal"
@@ -12,12 +12,22 @@ international_journals:
       doi: "https://doi.org/10.1109/JIOT.2026.3710156"
       
     - year: 2026
+      authors: "Ridho Hendra Yoga Perdana, Yushintia Pramitarini, Kyusung Shim, and Beongku An"
+      title: "Energy Efficiency in mmWave mMIMO-RSMA Systems With Multiple AAV-Carried STAR-RISs"
+      venue: " IEEE Transactions on Vehicular Technology "
+      volume: "vol. 75, issue. 06"
+      pages: "pp. 11979 - 11984"
+      date: "2025-06"
+      doi: "https://doi.org/10.1109/TVT.2025.3650480"
+      pdf: ""  
+      
+    - year: 2026
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, Taejoon Kim, Heejung Yu, and Beongku An"
       title: "Secure Multicast Routing Protocol for FANETs Against Active Sniffing Attacks: Deep Learning Approach"
       venue: "ICT Express"
       volume: ""
       pages: ""
-      date: "March 2026"
+      date: "2026-03"
       doi: "https://doi.org/10.1016/j.icte.2026.03.016"
       
     - year: 2025
@@ -26,9 +36,12 @@ international_journals:
       venue: "IEEE Internet of Things Journal"
       volume: "vol. 12, no. 12"
       pages: "pp. 22404–22426"
-      date: "June 2025"
+      date: "2025-06"
       doi: "https://doi.org/10.1109/JIOT.2025.3548863"
       pdf: ""
+
+    
+
 
     - year: 2025
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
@@ -36,7 +49,7 @@ international_journals:
       venue: "IEEE Internet of Things Journal"
       volume: "vol. 12, no. 10"
       pages: "pp. 14016–14035"
-      date: "May 2025"
+      date: "2025-05"
       doi: "https://doi.org/10.1109/JIOT.2025.3533633"
       pdf: ""
 
@@ -46,7 +59,7 @@ international_journals:
       venue: "IEEE Access"
       volume: "vol. 12"
       pages: "pp. 58454–58472"
-      date: "April 2024"
+      date: "2024-04"
       doi: "https://doi.org/10.1109/ACCESS.2024.3391855"
       pdf: ""
 
