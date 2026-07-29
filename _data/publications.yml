@@ -75,7 +75,7 @@ international_journals:
     - year: 2025
       date: "2025-01"
       authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
-      title: "“A Cross-Layer FL-Based Clustering Protocol to Support Multicast Routing in IoT-Enabled MANETs With CF-mMIMO"
+      title: "A Cross-Layer FL-Based Clustering Protocol to Support Multicast Routing in IoT-Enabled MANETs With CF-mMIMO"
       venue: "IEEE Access"
       volume: ""
       pages: ""
@@ -90,6 +90,36 @@ international_journals:
       pages: "pp. 58454–58472"
       date: "2024-04"
       doi: "https://doi.org/10.1109/ACCESS.2024.3391855"
+      pdf: ""
+
+    - year: 2023
+      date: "2023-10"
+      authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "A Deep-Learning-Based Secure Routing Protocol to Avoid Blackhole Attacks in VANETs"
+      venue: "Sensors"
+      volume: "vol. 23, no. 19"
+      pages: "pp. 8224"
+      doi: "https://doi.org/10.3390/s23198224"
+      pdf: "" 
+
+    - year: 2023
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "DLSMR: Deep Learning-Based Secure Multicast Routing Protocol against Wormhole Attack in Flying Ad Hoc Networks with Cell-Free Massive Multiple-Input Multiple-Output"
+      venue: "Sensors"
+      volume: "vol. 23. no. 18"
+      pages: "pp. 7960"
+      date: "2023-09"
+      doi: "https://doi.org/10.3390/s23187960"
+      pdf: ""
+
+    - year: 2022
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Thong-Nhat, Kyusung Shim, and Beongku An"
+      title: "A Hybrid Price Auction-Based Secure Routing Protocol Using Advanced Speed and Cosine Similarity-Based Clustering against Sinkhole Attack in VANETs"
+      venue: "Sensors"
+      volume: "vol. 22, no. 15"
+      pages: "pp. 5811"
+      date: "2022-08"
+      doi: "https://doi.org/10.3390/s22155811"
       pdf: ""
 
 domestic_journals:
