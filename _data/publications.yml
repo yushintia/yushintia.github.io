@@ -10,6 +10,7 @@ international_journals:
       volume: ""
       pages: ""
       doi: "https://doi.org/10.1109/JIOT.2026.3710156"
+      pdf: "" 
       
     - year: 2026
       authors: "Ridho Hendra Yoga Perdana, Toan-Van Nguyen, Yushintia Pramitarini, Duy H. N. Nguyen, Daniel Benevides da Costa, and Beongku An"
@@ -29,6 +30,7 @@ international_journals:
       pages: ""
       date: "2026-03"
       doi: "https://doi.org/10.1016/j.icte.2026.03.016"
+      pdf: "" 
       
     - year: 2025
       date: "2025-11"
@@ -38,6 +40,7 @@ international_journals:
       volume: ""
       pages: ""
       doi: "https://doi.org/10.1109/JIOT.2025.3603192"
+      pdf: "" 
 
     - year: 2025
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
@@ -77,6 +80,7 @@ international_journals:
       volume: ""
       pages: ""
       doi: "https://doi.org/10.1109/ACCESS.2025.3525636"
+      pdf: "" 
 
     - year: 2024
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
