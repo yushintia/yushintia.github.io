@@ -75,7 +75,7 @@ author_profile: true
         {% if group.items.size > 0 %}
 
           <ol class="pub-list" data-publication-list>
-            {% assign sorted_items = group.items | sort: "year" | reverse %}
+            {% assign sorted_items = group.items | sort: "date" | reverse %}
 
             {% for item in sorted_items %}
               <li
