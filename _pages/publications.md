@@ -3,7 +3,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
+<div class="publications-page">
 <div class="pub-hero">
   <span class="pub-eyebrow">Academic Portfolio</span>
 
@@ -179,6 +179,7 @@ author_profile: true
     {% endfor %}
 
   </main>
+</div>
 </div>
 
 <script src="{{ '/assets/js/publications.js' | relative_url }}"></script>
