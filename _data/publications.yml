@@ -12,12 +12,12 @@ international_journals:
       doi: "https://doi.org/10.1109/JIOT.2026.3710156"
       
     - year: 2026
-      authors: "Ridho Hendra Yoga Perdana, Yushintia Pramitarini, Kyusung Shim, and Beongku An"
+      authors: "Ridho Hendra Yoga Perdana, Toan-Van Nguyen, Yushintia Pramitarini, Duy H. N. Nguyen, Daniel Benevides da Costa, and Beongku An"
       title: "Energy Efficiency in mmWave mMIMO-RSMA Systems With Multiple AAV-Carried STAR-RISs"
       venue: " IEEE Transactions on Vehicular Technology "
       volume: "vol. 75, issue. 06"
       pages: "pp. 11979 - 11984"
-      date: "2025-06"
+      date: "2026-06"
       doi: "https://doi.org/10.1109/TVT.2025.3650480"
       pdf: ""  
       
@@ -31,6 +31,15 @@ international_journals:
       doi: "https://doi.org/10.1016/j.icte.2026.03.016"
       
     - year: 2025
+      date: "2025-11"
+      authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Energy-Efficient Multicast Routing Protocol Using FLBased Optimal Route Selection in IoT-Enabled MANETs With RIS and CF-mMIMO"
+      venue: "IEEE Internet of Things Journal"
+      volume: ""
+      pages: ""
+      doi: "https://doi.org/10.1109/JIOT.2025.3603192"
+
+    - year: 2025
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
       title: "Secure Multicast Routing Against Collaborative Attacks in FANETs with CF-mMIMO and STAR-RIS: Blockchain and Federated Learning Design"
       venue: "IEEE Internet of Things Journal"
@@ -40,18 +49,34 @@ international_journals:
       doi: "https://doi.org/10.1109/JIOT.2025.3548863"
       pdf: ""
 
-    
-
-
+    - year: 2025
+      authors: "Ridho Hendra Yoga Perdana, Toan-Van Nguyen, Yushintia Pramitarini, Duy H.N. Nguyen, and Beongku An"
+      title: "Enhancing Spectral Efficiency of Short-Packet Communications in STAR-RIS-Assisted SWIPT MIMO-NOMA Systems with Deep Learning"
+      venue: " IEEE Transactions on Wireless Communications"
+      volume: "vol. 24, issue. 01"
+      pages: "pp. 842 - 8594"
+      date: "2025-01"
+      doi: "https://doi.org/10.1109/TWC.2024.3502724"
+      pdf: ""  
+        
     - year: 2025
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
       title: "Federated Blockchain-Based Clustering Protocol for Enhanced Security and Connectivity in FANETs with CF-mMIMO"
       venue: "IEEE Internet of Things Journal"
       volume: "vol. 12, no. 10"
-      pages: "pp. 14016–14035"
-      date: "2025-05"
-      doi: "https://doi.org/10.1109/JIOT.2025.3533633"
+      pages: "pp. 14016 - 14035"
+      date: "2025-01"
+      doi: "https://doi.org/10.1109/JIOT.2025.3525644"
       pdf: ""
+
+    - year: 2025
+      date: "2025-01"
+      authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "“A Cross-Layer FL-Based Clustering Protocol to Support Multicast Routing in IoT-Enabled MANETs With CF-mMIMO"
+      venue: "IEEE Access"
+      volume: ""
+      pages: ""
+      doi: "https://doi.org/10.1109/ACCESS.2025.3525636"
 
     - year: 2024
       authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
