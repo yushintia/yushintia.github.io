@@ -105,6 +105,11 @@ author_profile: true
                   <p class="pub-authors">
                     {{ item.authors }}
                   </p>
+                  {% if item.venue and item.venue != "" %}
+                    <p class="pub-venue">
+                    {{ item.venue }}
+                    </p>
+                    {% endif %}
 
                   {% if item.doi != "" or item.pdf != "" %}
                     <div class="pub-actions">
