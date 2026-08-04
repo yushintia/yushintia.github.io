@@ -131,6 +131,76 @@ international_conferences:
   title: "International Conference Papers"
   short_title: "International Conferences"
   items:
+    - year: 2025
+      authors: "Ridho Hendra Yoga Perdana, Toan-Van Nguyen, Yushintia Pramitarini, Duy H.N. Nguyen, and Beongku An"
+      title: "Deep Learning-based Energy Efficiency Maximization in Multi-STAR-RIS-Assisted Massive MIMO-NOMA Networks"
+      venue: "Proc. of ICAIIC 2025"
+      volume: ""
+      pages: ""
+      date: "2025-02"
+      doi: ""
+      pdf: ""
+  
+    - year: 2025
+      authors: "Ridho Hendra Yoga Perdana, Toan-Van Nguyen, Yushintia Pramitarini, Duy H.N. Nguyen, and Beongku An"
+      title: "Deep Learning Design for Spectral Efficiency in RIS-Enabled Massive MIMO-RSMA Networks"
+      venue: "Proc. of ICGHIT 2025"
+      volume: ""
+      pages: ""
+      date: "2025-01"
+      doi: ""
+      pdf: ""
+      
+    - year: 2025
+      authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Federated Learning-Based Clustering Protocol Utilizing Cross-Layer Design in IoT-Enabled MANETs with CF-mMIMO"
+      venue: "Proc. of ICGHIT 2025"
+      volume: ""
+      pages: ""
+      date: "2025-01"
+      doi: ""
+      pdf: ""
+      
+    - year: 2025
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Deep Learning Blockchain-based Clustering Protocol to Improve Security and Scalability in FANETs"
+      venue: "Proc. of ICGHIT 2025"
+      volume: ""
+      pages: ""
+      date: "2025-01"
+      doi: ""
+      pdf: ""
+    
+    - year: 2024
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Exploiting Secure Multi-Hop Transmissions with NOMA Networks:Performance Analysis"
+      venue: "Proc. of ICAIIC 2024"
+      volume: ""
+      pages: ""
+      date: "2024-02"
+      doi: ""
+      pdf: ""
+    
+    - year: 2024
+      authors: "Ridho Hendra Yoga Perdana, Toan-Van Nguyen, Yushintia Pramitarini, and Beongku An"
+      title: "Deep Learning-Based Energy Efficiency Maximization in Massive MIMO-NOMA Networks With Multiple RISs"
+      venue: "Proc. of ICAIIC 2024"
+      volume: ""
+      pages: ""
+      date: "2024-02"
+      doi: ""
+      pdf: ""
+  
+    - year: 2024
+      authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Federated Learning-Enhanced QoS Multicast Routing to Support RIS and Edge Computing in IoT-Enabled MANETs with CF-mMIMO"
+      venue: "Proc. of ITC-CSCC 2024"
+      volume: ""
+      pages: ""
+      date: "2024-07"
+      doi: ""
+      pdf: ""
+    
     - year: 2024
       authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
       title: "Federated Learning-Based Clustering Protocol to Support QoS Routing in Vehicle Edge Computing"
@@ -220,7 +290,26 @@ domestic_conferences:
 patents:
   title: "Patents"
   short_title: "Patents"
-  items: []
+  items: 
+  - year: 2026
+      authors: "Beongku An, Yushintia Pramitarini, Kyusung Shim, and Byung-Seo Kim"
+      title: "Deep Learning-Based Secure Multicast Routing Method to Avoid Wormhole Attacks"
+      venue: "Korean Patent"
+      volume: ""
+      pages: ""
+      date: "2026-07"
+      doi: ""
+      pdf: ""
+
+  - year: 2024
+      authors: "Yushintia Pramitarini, and Beongku An"
+      title: "Exploiting TAS schemes to Enhance the PHY-security in Cooperative NOMA Networks: A Deep Learning Approach"
+      venue: "Korean Patent"
+      volume: ""
+      pages: ""
+      date: "2024-08"
+      doi: ""
+      pdf: ""
 
 software:
   title: "Software"
