@@ -180,7 +180,29 @@ international_conferences:
       date: "2023-02"
       doi: ""
       pdf: ""
+
+  - year: 2023
+      authors: "Amalia Amalia, Yushintia Pramitarini, Kyusung Shim, and Beongku An"
+      title: "Cuckoo Optimization-Based Routing Protocol to Enhance QoS in Mobile Ad-Hoc Networks"
+      venue: "Proc. of ICGHIT 2023"
+      volume: ""
+      pages: ""
+      date: "2023-02"
+      doi: ""
+      pdf: ""
+      
+  - year: 2023
+      authors: "Amalia Amalia, Yushintia Pramitarini, Kyusung Shim, and Beongku An"
+      title: "Cuckoo Optimization-Based Routing Protocol to Enhance QoS in Mobile Ad-Hoc Networks"
+      venue: "Proc. of ICGHIT 2023"
+      volume: ""
+      pages: ""
+      date: "2023-02"
+      doi: ""
+      pdf: ""
     
+
+      
 domestic_conferences:
   title: "Domestic Conference Papers"
   short_title: "Domestic Conferences"
