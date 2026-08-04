@@ -103,7 +103,8 @@ author_profile: true
                   </h3>
 
                   <p class="pub-authors">
-                    {{ item.authors }}
+                    {{ item.authors
+                     | replace: "Yushintia Pramitarini", "<strong>Yushintia Pramitarini</strong>" }}
                   </p>
                   {% if item.venue and item.venue != "" %}
                     <p class="pub-venue">
