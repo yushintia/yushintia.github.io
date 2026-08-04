@@ -122,6 +122,16 @@ international_journals:
       doi: "https://doi.org/10.3390/s22155811"
       pdf: ""
 
+    - year: 2020
+      authors: "Yan Watequlis Syaifudin, Yoppy Yunhasnawa, Yushintia Pramitarini, Awan Setiawan, Erfan Rohadi, Pramana Yoga Saputra"
+      title: "A Proposed Framework of Campus-Oriented Online Text Messaging System"
+      venue: "International Journal of Interactive Mobile Technologies (iJIM) "
+      volume: "vol. 14, no. 16"
+      pages: "pp. 194-209"
+      date: "2020-09"
+      doi: "https://doi.org/10.3991/ijim.v14i16.11454"
+      pdf: ""
+
 domestic_journals:
   title: "Domestic Journal Papers"
   short_title: "Domestic Journals"
@@ -278,6 +288,16 @@ international_conferences:
       volume: ""
       pages: ""
       date: "2021-02"
+      doi: ""
+      pdf: ""
+
+    - year: 2021
+      authors: "R Rawansyah, Agung Nugraha Pramudhita, and Yushintia Pramitarini"
+      title: "Enhancing Student Interest in Learning Through The Development Of Serious Mathematics Games"
+      venue: "IOP Conference Series Materials Science and Engineering"
+      volume: ""
+      pages: ""
+      date: "2021-01"
       doi: ""
       pdf: ""
 
