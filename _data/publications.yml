@@ -142,7 +142,7 @@ international_conferences:
       pdf: ""
 
     - year: 2024
-      authors: "**Yushintia Pramitarini**, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
       title: "A Cross-Layer PSO-based Clustering Protocol to Support QoS Routing Protocol in Flying Ad-hoc Networks"
       venue: "Proc. of ICGHIT 2024"
       volume: ""
