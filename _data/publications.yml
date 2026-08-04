@@ -132,12 +132,22 @@ international_conferences:
   short_title: "International Conferences"
   items:
     - year: 2024
-      authors: "Yushintia Pramitarini, et al."
-      title: "Example International Conference Paper"
-      venue: "IEEE ICAIIC"
+      authors: "Amalia Amalia, Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Federated Learning-Based Clustering Protocol to Support QoS Routing in Vehicle Edge Computing"
+      venue: "Proc. of ICGHIT 2024"
       volume: ""
-      pages: "pp. 1–6"
-      date: "February 2024"
+      pages: ""
+      date: "2024-01"
+      doi: ""
+      pdf: ""
+
+    - year: 2024
+      authors: "**Yushintia Pramitarini**, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "A Cross-Layer PSO-based Clustering Protocol to Support QoS Routing Protocol in Flying Ad-hoc Networks"
+      venue: "Proc. of ICGHIT 2024"
+      volume: ""
+      pages: ""
+      date: "2024-01"
       doi: ""
       pdf: ""
 
