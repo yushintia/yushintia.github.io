@@ -151,6 +151,27 @@ international_conferences:
       doi: ""
       pdf: ""
 
+    - year: 2024
+      authors: "Ridho Hendra Yoga Perdana, Toan-Van Nguyen, Yushintia Pramitarini, Kyusung Shim, and Beongku An"
+      title: "Deep Learning-based Spectral Efficiency Maximization in Massive MIMO-NOMA Systems with STAR-RIS"
+      venue: "Proc. of ICGHIT 2024"
+      volume: ""
+      pages: ""
+      date: "2024-01"
+      doi: ""
+      pdf: ""
+
+    - year: 2023
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Exploiting TAS schemes to Enhance the PHY-security in Cooperative NOMA Networks: A Deep Learning Approach"
+      venue: "Proc. of ICAIIC 2023"
+      volume: ""
+      pages: ""
+      date: "2023-02"
+      doi: ""
+      pdf: ""
+
+    
 domestic_conferences:
   title: "Domestic Conference Papers"
   short_title: "Domestic Conferences"
