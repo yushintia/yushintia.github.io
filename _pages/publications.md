@@ -22,41 +22,52 @@ author_profile: true
 
 {% for group_key in publication_groups %}
   {% assign group = site.data.publications[group_key] %}
-  {% assign total_publications = total_publications | plus: group.items.size %}
+
+  {% if group.items.size > 0 %}
+    {% assign total_publications = total_publications | plus: group.items.size %}
+  {% endif %}
+
 {% endfor %}
 
 <nav class="pub-category-nav" aria-label="Publication categories">
   {% for group_key in publication_groups %}
     {% assign group = site.data.publications[group_key] %}
 
-    <a href="#{{ group_key }}">
-      <span>{{ group.short_title }}</span>
-      <span class="pub-nav-count">{{ group.items.size }}</span>
-    </a>
+    {% if group.items.size > 0 %}
+      <a href="#{{ group_key }}">
+        <span>{{ group.short_title }}</span>
+        <span class="pub-nav-count">{{ group.items.size }}</span>
+      </a>
+    {% endif %}
+
   {% endfor %}
 </nav>
-
 <div class="pub-layout">
 
   <aside class="pub-sidebar">
     <div class="pub-sidebar-title">Categories</div>
 
-    {% for group_key in publication_groups %}
-      {% assign group = site.data.publications[group_key] %}
+   {% for group_key in publication_groups %}
+  {% assign group = site.data.publications[group_key] %}
 
-      <a href="#{{ group_key }}">
-        <span>{{ group.short_title }}</span>
-        <span>{{ group.items.size }}</span>
-      </a>
-    {% endfor %}
+  {% if group.items.size > 0 %}
+    <a href="#{{ group_key }}">
+      <span>{{ group.short_title }}</span>
+      <span>{{ group.items.size }}</span>
+    </a>
+  {% endif %}
+
+{% endfor %}
   </aside>
 
   <main class="pub-content">
 
     {% for group_key in publication_groups %}
-      {% assign group = site.data.publications[group_key] %}
+  {% assign group = site.data.publications[group_key] %}
 
-      <section class="pub-section" id="{{ group_key }}">
+  {% if group.items.size > 0 %}
+
+    <section class="pub-section" id="{{ group_key }}">
 
         <div class="pub-section-heading">
           <div>
@@ -182,6 +193,7 @@ author_profile: true
         {% endif %}
 
       </section>
+    {% endif %}
     {% endfor %}
 
   </main>
