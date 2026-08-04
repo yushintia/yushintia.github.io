@@ -171,6 +171,15 @@ international_conferences:
       doi: ""
       pdf: ""
 
+  - year: 2023
+      authors: "Yushintia Pramitarini, Ridho Hendra Yoga Perdana, Kyusung Shim, and Beongku An"
+      title: "Particle Swarm Optimization-Based Clustering Algorithm to Support QoS Routing Protocol in Flying Ad-Hoc Networks with CF-mMIMO"
+      venue: "Proc. of ICGHIT 2023"
+      volume: ""
+      pages: ""
+      date: "2023-02"
+      doi: ""
+      pdf: ""
     
 domestic_conferences:
   title: "Domestic Conference Papers"
