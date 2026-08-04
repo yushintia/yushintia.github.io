@@ -221,7 +221,7 @@ international_conferences:
       doi: ""
       pdf: ""
 
-    - year: 2024
+    - year: 2023
       authors: "Ridho Hendra Yoga Perdana, Toan-Van Nguyen, Yushintia Pramitarini, Kyusung Shim, and Beongku An"
       title: "Deep Learning-based Spectral Efficiency Maximization in Massive MIMO-NOMA Systems with STAR-RIS"
       venue: "Proc. of ICAIIC 2023"
