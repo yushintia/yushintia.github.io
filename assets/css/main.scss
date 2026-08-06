@@ -669,8 +669,10 @@
   align-items: center;
   gap: 0.9rem;
   width: 100%;
-  padding: 0.9rem 1rem;
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
 }
+
+.teaching-card:hover .teaching-course h3 {
+  color: var(--global-link-color);
 }
