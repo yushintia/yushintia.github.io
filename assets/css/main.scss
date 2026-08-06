@@ -632,13 +632,10 @@
 .teaching-course {
   min-width: 0;
 
-  h3 {
-    margin: 0;
-    color: var(--global-text-color);
-    font-size: 0.86rem;
-    font-weight: 700;
-    line-height: 1.4;
-  }
+  .teaching-course h3 {
+  color: var(--global-text-color);
+  transition: color .2s ease;
+}
 
   p {
     margin: 0.18rem 0 0;
