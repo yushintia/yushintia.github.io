@@ -3,6 +3,7 @@ title: "Computer Programming 1"
 collection: teaching
 type: "Undergraduate Course"
 permalink: /teaching/computer-programming1/
+link: "https://yushintia.github.io/computer-programming1/"
 venue: "Dong-Eui University"
 date: 2026-03-01
 location: "Busan, Republic of Korea"
