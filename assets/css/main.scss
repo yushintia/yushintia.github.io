@@ -658,7 +658,19 @@
     font-size: 1.1rem;
   }
 
-  .teaching-list li {
-    padding: 0.8rem;
+  .teaching-list {
+  li {
+    padding: 0;
   }
+}
+
+.teaching-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  width: 100%;
+  padding: 0.9rem 1rem;
+  color: inherit;
+  text-decoration: none;
+}
 }
